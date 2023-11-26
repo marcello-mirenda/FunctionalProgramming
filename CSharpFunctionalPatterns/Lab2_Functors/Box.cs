@@ -1,4 +1,4 @@
-﻿namespace Functors.Lab2
+﻿namespace CSharpFunctionalPatterns.Lab2_Functors
 {
     internal class Box<T>
     {

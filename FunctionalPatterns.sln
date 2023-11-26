@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functors", "Functors\Functors.csproj", "{E31E45E7-A679-48E3-956F-591E4A528D48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFunctionalPatterns", "CSharpFunctionalPatterns\CSharpFunctionalPatterns.csproj", "{E31E45E7-A679-48E3-956F-591E4A528D48}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "WebApplication1", "WebApplication1\WebApplication1.fsproj", "{F59E101C-1DFE-4E23-9328-5CA3839601E3}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "WebApplication1", "WebApplication1\WebApplication1.fsproj", "{F59E101C-1DFE-4E23-9328-5CA3839601E3}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.fsproj", "{48B6F07D-3BB7-4DFF-9ED7-535A4EBD35AD}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpFunctionalPatterns", "FSharpFunctionalPatterns\FSharpFunctionalPatterns.fsproj", "{48B6F07D-3BB7-4DFF-9ED7-535A4EBD35AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
