@@ -1,10 +1,12 @@
-﻿using CSharpFunctionalPatterns.Lab2_Functors;
-using CSharpFunctionalPatterns.Lab3_ApplicativeFunctors;
+﻿using CSharpFunctionalPatterns.Lab3_ApplicativeFunctors;
+using static System.Console;
 
-var applicativeMaybe = new ApplicativeMaybe<int>(1);
-var res = applicativeMaybe
-    .Apply(new Maybe<Func<int, int>>.Just(x => x + 9))
-    .Apply(new Maybe<Func<int, int>>.Just(x => x * 2))
-    //.Apply(new Maybe<Func<int, int>>.Nothing())
-    .Apply(new Maybe<Func<int, string>>.Just(x => $"A{x}"));
-Console.WriteLine(res);
+var applicativeMaybe = new ApplicativeMaybeString();
+var res = applicativeMaybe.Apply(
+    applicativeMaybe.Pure((string x, string y, string z) => x + y + z),
+    applicativeMaybe.Pure("A"),
+    applicativeMaybe.Pure("B"),
+    applicativeMaybe.Pure("C")
+    );
+
+WriteLine(res);
